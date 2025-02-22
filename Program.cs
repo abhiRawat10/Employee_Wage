@@ -2,13 +2,13 @@
 {
     internal class Program
     {
+        //these constant are for comparing the employee attendance
+        const int IS_FULL_TIME = 2;
+        const int IS_PART_TIME = 1;
+        const int EMP_RATE_PER_HOUR = 20;
+
         static void Main(string[] args)
         {
-            //these constant are for comparing the employee attendance
-            const int IS_FULL_TIME = 2;
-            const int IS_PART_TIME = 1;
-            const int EMP_RATE_PER_HOUR = 20;
-
             //varaiables
             int empHrs = 0;
             int empWage = 0;
