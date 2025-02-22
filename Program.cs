@@ -9,7 +9,7 @@
         public const int NUM_OF_WORKING_DAYS = 20;
         public const int MAX_HRS_IN_MONTH = 100;
 
-        public static void computEngine()
+        public static void computEmpWage()
         {
             //variables
             int empHrs = 0;
@@ -45,7 +45,7 @@
 
         static void Main(string[] args)
         {
-            computEngine();
+            computEmpWage();
         }
     }
 }
