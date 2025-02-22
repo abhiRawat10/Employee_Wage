@@ -7,7 +7,7 @@ namespace EmployeeWage
         static void Main(string[] args)
         {
             EmpWageBuilderObject emp1 = new EmpWageBuilderObject("Dmart", 20, 2, 10);
-            emp1.computeEngine();
+            emp1.computeEmpWage();
             Console.WriteLine(emp1.toString());
             Console.ReadKey();
         }
@@ -31,7 +31,7 @@ namespace EmployeeWage
             this.numOfWorkingDays = numOfWorkingDays;
             this.maxHoursPerMonth = maxHoursPerMonth;
         }
-        public void computeEngine()
+        public void computeEmpWage()
         {
             //variables
             int empHrs = 0, totalEmpHrs = 0, totalWorkingDays = 0;
