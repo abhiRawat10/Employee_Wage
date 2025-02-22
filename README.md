@@ -1,16 +1,12 @@
 # Employee Wage Management System
 
 ## Overview
-
 The Employee Wage Management System is a C# application built using .NET 6 that helps manage employee salaries and wages. The system allows employers to calculate employee wages based on work hours, overtime, and deductions.
 
-## Features
+## Features Added in this branch
+- Ability to save the Total Wage for each company.
 
-- Add, update, and delete employee records
-- Calculate wages based on hourly rate or fixed salary
-- Manage overtime calculations
-- Generate wage slips
-- Store and retrieve employee wage history
+
 
 ## Technologies Used
 
