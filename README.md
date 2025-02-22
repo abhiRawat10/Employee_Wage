@@ -5,7 +5,7 @@ The Employee Wage Management System is a C# application built using .NET 6 that 
 
 
 ## Features added in this branch 
--Ability to compute employee wage based on company.
+-Ability to compute employee wage for multiple company in procedural way usign class methods.
 
 
 ## Technologies Used
