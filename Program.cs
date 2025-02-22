@@ -6,7 +6,7 @@
         public const int IS_PART_TIME = 1;
         public const int IS_FULL_TIME = 2;
 
-        public static int computEngine(string company, int empRatePerHour, int numOfWorkingDays, int maxHourPerMonth)
+        public static int computeEmpWage(string company, int empRatePerHour, int numOfWorkingDays, int maxHourPerMonth)
         {
             //variables
             int empHrs = 0;
@@ -43,7 +43,7 @@
 
         static void Main(string[] args)
         {
-            int totalEmpWage = computEngine("Dmart", 20, 2, 10);
+            int totalEmpWage = computeEmpWage("Dmart", 20, 2, 10);
             Console.ReadKey();
         }
     }
