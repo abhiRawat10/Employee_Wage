@@ -2,6 +2,21 @@ using System;
 
 namespace EmployeeWage
 {
+
+    public interface ICompanyEmpWage
+    {
+        string Company { get; }
+        int EmpRatePerHour { get; }
+        int NumOfWorkingDays { get; }
+        int MaxHoursPerMonth { get; }
+        int TotalEmpWage { get; set; }
+
+        void SetTotalEmpWage(int totalEmpWage);
+        string ToString();
+    }
+
+
+
     public class EmpWageBuilderArray
     {
         public const int IS_PART_TIME = 1;
@@ -62,13 +77,13 @@ namespace EmployeeWage
 
 
 
-    public class CompanyEmpWage
+    public class CompanyEmpWage : ICompanyEmpWage
     {
-        public string company;
-        public int empRatePerHour;
-        public int numOfWorkingDays;
-        public int maxHoursPerMonth;
-        public int totalEmpWage;
+        public string Company { get; }
+        public int EmpRatePerHour { get; }
+        public int NumOfWorkingDays { get; }
+        public int MaxHoursPerMonth { get; }
+        public int TotalEmpWage { get; set; }
 
         public CompanyEmpWage(string company, int empRatePerHour, int numOfWorkingDays, int maxHoursPerMonth)
         {
