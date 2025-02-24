@@ -21,7 +21,7 @@ namespace EmployeeWage
             numOfCompany++;
         }
 
-        public void computeEngineWage()
+        public void computeEmpWage()
         {
             for (int i = 0; i < numOfCompany; i++)
             {
